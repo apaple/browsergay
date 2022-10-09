@@ -16,7 +16,6 @@ EventEmitter.prototype._maxListeners = Infinity;
 
 process.on('uncaughtException', function (err) { }); //hataları yok et
 process.on('unhandledRejection', function (err) { }); //hataları yok et
-、、tg群:@qprox
 var target = process.argv[2];
 var time = process.argv[3];
 var threads = process.argv[4];
