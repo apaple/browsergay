@@ -13,8 +13,7 @@ function sleep(ms) {
 
 async function main() {
 
-    const target_url = process.argv[2];
-	const target = target_url.split('""')[0];
+    const target = process.argv[2];
     const proxyFile = process.argv[3];
     const timeforattack = process.argv[4];
     const browsernum = process.argv[5];
